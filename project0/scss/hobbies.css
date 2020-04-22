@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+}
+
+#title {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+#main {
+  padding: 20px;
+  margin: 1%;
+  margin-top: 0px;
+  height: 90%;
+  background-color: lightsteelblue;
+}
+
+#home {
+  float: left;
+  margin-top: 5px;
+  margin-left: 1%;
+}
+
+#home:before {
+  content: "\21A2";
+}
+
+ol > li {
+  width: 25%;
+  font-family: "Times New Roman";
+  font-weight: bold;
+}
+
+ul {
+  font-family: "Times New Roman";
+  font-weight: normal;
+}
+
+.subitems {
+  font-weight: normal;
+  margin-left: 5%;
+}
+/*# sourceMappingURL=hobbies.css.map */
